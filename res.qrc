@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>img/1.png</file>
+        <file>img/2.png</file>
+        <file>img/3.png</file>
+        <file>img/4.png</file>
+        <file>img/5.png</file>
+        <file>img/6.png</file>
+        <file>img/7.png</file>
+        <file>img/8.png</file>
+        <file>img/9.png</file>
+        <file>img/10.png</file>
+        <file>img/11.png</file>
+        <file>img/12.png</file>
+        <file>img/FA.png</file>
+        <file>img/FB.png</file>
+        <file>img/FC.png</file>
+        <file>img/FD.png</file>
+        <file>img/FE.png</file>
+        <file>img/FF.png</file>
+        <file>img/FG.png</file>
+        <file>img/FH.png</file>
+        <file>img/R1.png</file>
+        <file>img/R2.png</file>
+        <file>img/R3.png</file>
+        <file>img/R4.png</file>
+        <file>img/R5.png</file>
+        <file>img/R6.png</file>
+        <file>img/R7.png</file>
+        <file>img/R8.png</file>
+        <file>img/floppy_disc.png</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file>sounds/move.wav</file>
+    </qresource>
+</RCC>
