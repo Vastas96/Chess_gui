@@ -1245,10 +1245,10 @@ namespace Chess{
                     }
 
                 w->movePiece(from, to);
-//                w->unSet();
+                w->unSet();
                 w->addMove(printMove(move), impl->hisPly - 1);
-//                w->setSquare(from);
-//                w->setSquare(to);
+                w->setSquare(from);
+                w->setSquare(to);
                 if(impl->isCheck()){
                     w->setCheck(impl->kingSq[impl->side]);
                 }

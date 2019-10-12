@@ -110,9 +110,9 @@ private:
     Chess::Board *game;
     QProcess *myProcess;
     QPlayer *player[2];
-    int hSq;
-    int hSq1;
-    int hSq2;
+    unsigned int hSq;
+    unsigned int hSq1;
+    unsigned int hSq2;
     int hisPly;
     QMediaPlayer *music;
     MyTcpSocket *socket;

@@ -47,7 +47,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
     hSq = NO_SQ;
     hSq1 = NO_SQ;
-    hSq1 = NO_SQ;
+    hSq2 = NO_SQ;
 
     music = new QMediaPlayer;
     music->setMedia(QUrl("qrc:/sounds/sounds/move.wav"));
@@ -173,12 +173,12 @@ void MainWindow::setStaleMate()
 
 void MainWindow::unSet()
 {
-    int A[3];
+    unsigned int A[3];
     A[0] = hSq;
     A[1] = hSq1;
     A[2] = hSq2;
 
-    for(int i = 0 ; i < 3 ;i++){
+    for(unsigned int i = 0 ; i < 3 ;i++){
         if(A[i] != NO_SQ){
             if(SQ2R(A[i]) % 2 == 0){
                 if(A[i] % 2 == 0){
